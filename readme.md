@@ -1,7 +1,7 @@
 # Movies_task
 
 - **E**xpress (sometimes referred to as Express.js): Back-end web application framework running on top of Node.js
-- **N**ode.js : JavaScript runtime environment – lets you implement your application back-end in JavaScript
+- **N**ode.js : JavaScript runtime environment – lets you implement your application back-end in Typescript
 
 ### Pre-requisites
 - git - [Installation guide](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/) .  
