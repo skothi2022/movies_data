@@ -5,18 +5,17 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 // Define the configuration object
-const config = {
+export const config = {
     server: {
         port: process.env.PORT || 3000,
     },
     tmdb: {
         discoverApi: process.env.TMDB_DISCOVER_API || 'https://api.themoviedb.org/3/discover/movie',
         creditsApi: process.env.TMDB_CREDITS_API || 'https://api.themoviedb.org/3/movie',
-        bearerToken: process.env.TMDB_BEARER_TOKEN || '',
+        bearerToken: process.env.TMDB_BEARER_TOKEN,
     },
     logs: {
         level: process.env.LOG_LEVEL || 'info',
     },
 };
 
-export default config;
